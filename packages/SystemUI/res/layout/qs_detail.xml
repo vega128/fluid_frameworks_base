@@ -21,7 +21,7 @@
     android:layout_height="match_parent"
     android:clickable="true"
     android:orientation="vertical"
-    android:layout_marginTop="@*android:dimen/quick_qs_offset_height"
+    android:layout_marginTop="80dp"
     android:paddingBottom="8dp"
     android:visibility="invisible"
     android:elevation="4dp"
@@ -30,7 +30,7 @@
     <View
         android:id="@+id/qs_detail_top_space"
         android:layout_width="match_parent"
-        android:layout_height="@*android:dimen/quick_qs_offset_height"
+        android:layout_height="80dp"
         android:background="@android:color/transparent" />
 
     <com.android.keyguard.AlphaOptimizedLinearLayout
